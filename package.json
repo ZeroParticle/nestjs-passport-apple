@@ -27,6 +27,9 @@
     "type": "git",
     "url": "https://github.com/ZeroParticle/nestjs-passport-apple.git"
   },
+  "publishConfig": {
+		"access": "public"
+	},
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^2.1.4",
