@@ -1,6 +1,6 @@
 {
   "name": "@zeroparticle/nestjs-passport-apple",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Apple strategy for Passport in Nestjs",
   "keywords": [
     "passport",
@@ -18,14 +18,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "arendajaelu",
-    "email": "arendajaelu@gmail.com",
-    "url": "https://github.com/arendajaelu"
+    "name": "zeroparticle",
+    "email": "thezeroparticle@gmail.com",
+    "url": "https://github.com/ZeroParticle"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arendajaelu/nestjs-passport-apple.git"
+    "url": "https://github.com/ZeroParticle/nestjs-passport-apple.git"
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
