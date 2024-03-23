@@ -157,8 +157,8 @@ class AppleStrategy extends passport.Strategy {
                                     profile.email = jwtClaims.email;
                                 }
 
-                                if (jwtClaims.email_verified) {
-                                    profile.emailVerified = jwtClaims.email_verified === 'true';
+                                if (jwtClaims.email_verified !== undefined) {
+                                    profile.emailVerified = jwtClaims.email_verified;
                                 }
 
                                 if (req.body.user) {

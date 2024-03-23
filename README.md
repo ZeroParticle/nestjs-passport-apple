@@ -2,6 +2,8 @@
 
 This strategy integrates Apple login capabilities with NestJS's AuthGuard using Passport.
 
+Forked from `@arendajaelu/nestjs-passport-apple`
+
 ## Features
 
 - Utilizes Apple's OAuth2.0 for user authentication
@@ -11,7 +13,7 @@ This strategy integrates Apple login capabilities with NestJS's AuthGuard using 
 ## Installation
 
 ```bash
-npm install @arendajaelu/nestjs-passport-apple
+npm install @zeroparticle/nestjs-passport-apple
 ```
 
 ## Usage
@@ -23,7 +25,7 @@ Here's a full example detailing all available options:
 ```typescript
 import { Injectable } from '@nestjs/common';
 import { AuthGuard, PassportStrategy } from '@nestjs/passport';
-import { Strategy, Profile } from '@arendajaelu/nestjs-passport-apple';
+import { Strategy, Profile } from '@zeroparticle/nestjs-passport-apple';
 
 const APPLE_STRATEGY_NAME = 'apple';
 
